@@ -1,0 +1,20 @@
+# Dual-Pane File Explorer Requirements
+# Install with: pip install -r requirements.txt
+
+# GUI (built-in with Python)
+# tkinter comes with Python standard library install if it somehow is missing in your environment, install it via your package manager.
+
+# MTP Device Support (Windows only)
+pywin32>=305  # Required for MTP device access via Windows Shell COM API
+
+# For building executables
+pyinstaller>=5.0.0
+
+# Optional: For better file type detection
+# python-magic>=0.4.27
+
+# Optional: For system tray support
+# pystray>=0.19.4
+
+#Built by Chukwuemeka Onyebuenyi with Python and Tkinter
+#If this was helpful to you, Helpful? Feel free to support me. You can reachout via www.linkedin.com/in/chukwuemeka-onyebuenyi-967304201
